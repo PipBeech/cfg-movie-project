@@ -8,6 +8,15 @@ We started with a basic movie search query then extended this to return more inf
 ## What was our process?
 
 We discussed an initial plan for the project and produced a collective MOSCOW method list of requirements. 
+MUST:
+ability to search for a movie using the IMDb API (or alternative) and display basic information about the movie.
+SHOULD:
+allow user to search for movies by different criteria such as genre, actors, ratings.
+COULD:
+allow user to add movie to to watchlist file.
+WONT:
+have a facility to rent/purchase/stream movie
+
 
 We then produced a basic movie search which returned a list of movies containing the initial query. 
 
