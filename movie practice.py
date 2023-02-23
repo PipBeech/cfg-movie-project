@@ -76,7 +76,7 @@ def movie_search():
     # writes and appends text file so programme can be run multiple times
     with open('{}.txt'.format(results['title']), 'a+') as text_file:
         for item in items:
-            text_file.write(item + ': ' + str(results[item]) + '\n')
+            text_file.write(item.capitalize() + ': ' + str(results[item]) + '\n')
 
     # Prints results into console
     print("Movie title: {}".format(results['title']))
